@@ -15,9 +15,7 @@ main {
 }
 
 .top {
-    background-color: red;
     height: 120px;
-    border-radius: 5px;
     text-align: center;
 }
 
@@ -31,9 +29,7 @@ main {
     font-size: 3rem;
 }
 .bottom {
-    background-color: red;
     height: 15px;
-    border-radius: 5px;
 }
 
 .hello { 
