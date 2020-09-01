@@ -22,7 +22,7 @@ main {
 .middle {
     background-color: white;
     height: 115px;
-    font-family: cursive;
+    font-family: 'Cedarville Cursive', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
