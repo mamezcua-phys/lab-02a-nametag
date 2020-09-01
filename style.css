@@ -1,6 +1,10 @@
 body {
     background-color: lightblue;
     font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -19,6 +23,11 @@ main {
 .middle {
     background-color: white;
     height: 115px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
 }
 .bottom {
     background-color: red;
