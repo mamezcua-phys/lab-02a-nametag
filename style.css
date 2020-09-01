@@ -1,10 +1,11 @@
 body {
-    background-color: hotpink;
+    /* background-color: hotpink; */
     font-family: Roboto;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url("http://placekitten.com/200/300");
 }
 
 main {
