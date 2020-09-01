@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+    font-family: Roboto;
+}
+
+main {
+    background-color: red;
+    border-radius: 5px;
+    width: 375px;
+}
+
+.top {
+    background-color: red;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.middle {
+    background-color: white;
+    height: 115px;
+}
+.bottom {
+    background-color: red;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.hello { 
+    font-size: 4.5rem;
+    line-height: 1;
+    color: white;
+}
+
+.my-name-is {
+    font-size: 1rem;
+    line-height: 2;
+    color: white;
+}
