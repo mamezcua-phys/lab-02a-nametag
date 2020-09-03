@@ -6,19 +6,33 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>NameTag</title>
 </head>
 <body>
+    <script type="module" src="app.js"></script>
     <main>
-        <section class="top">
-            <div class="hello">HELLO</div>
-            <div class="my-name-is">MY NAME IS</div>
+        <section class="nametag-main" id="nametag-color">
+            <section class="top">
+                <div class="hello">HELLO</div>
+                <div class="my-name-is">MY NAME IS</div>
+            </section>
+            <section class="middle" id="userName">
+                Mayra 
+            </section>
+            <section class="bottom">
+            </section>
         </section>
-        <section class="middle">
-            Mayra 
-        </section>
-        <section class="bottom">
-
+    
+        <section class="interactive-sec">
+            <section>
+                <input id="name-input" />
+                <button id="name-button"> Change Name</button>
+            </section>
+            <section>
+                <button id="pinkButton">Pink</button>
+                <button id="lightGreenButton">Light Green</button>
+                <button id="lightBlueButton">Light Blue</button>
+            </section>
         </section>
     </main>
 </body>
